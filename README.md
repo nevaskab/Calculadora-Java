@@ -1,20 +1,43 @@
-## Getting Started
+<h1 align="center">Calculadora</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Calculadora feita em linguagem Java e utilizando bibliotecas Swing e AWT para personalização.
 
-## Folder Structure
+## 💻 Projeto
 
-The workspace contains two folders by default, where:
+<div align="center">
+  <img src="Gravação-de-Tela-2025-07-10-110349.gif" alt="alt text">
+</div>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Um pequeno projeto feito para testar conhecimentos em Java que realiza as operações básicas da matemática. A pequena parte do código abaixo mostra como é a lógica de cada operação:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```Java
+switch (operador) {
+            case "+" -> resultado = num1 + num2;
+            case "-" -> resultado = num1 - num2;
+            case "*" -> resultado = num1 * num2;
+            case "/" -> resultado = num1 / num2;
+            case "%" -> resultado = num1 * (num2 / 100);
+        }
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🎲 Rodando o código
 
-## Dependency Management
+```bash
+# Clone este repositório
+$ git clone https://github.com/nevaskab/Calculadora-Java.git
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Calculadora-Java
+```
 
-![alt text](Gravação-de-Tela-2025-07-10-110349.gif)
+Legal! Agora você tem uma cópia do projeto para modificar e testar no seu editor :D!
+
+### Autor
+---
+<a><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/133506658?s=400&u=add96d4ebb6071b0473386091845a1509b3de27b&v=4" width="100px;" alt=""/>
+<br />
+<sub><b>Andressa Martins</b></sub></a>
+
+Feito por Andressa Martins. Entre em contato <3.
+
+<a href="mailto:andressa.devsystem@gmail.com"><img alt="Static Badge" src="https://img.shields.io/badge/andressa.devsystem%40gmail.com-black?style=flat&logo=gmail&logoColor=%23EA4335&logoSize=auto&color=EDF2F4"></a>
